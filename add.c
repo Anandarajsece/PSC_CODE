@@ -1,14 +1,11 @@
 //Basic C program 
 #include <stdio.h>
-int main() {
-    int number1, number2, sum;
-    
+int main() 
+{
+    int a, b, sum;
     printf("Enter two integers: ");
-    scanf("%d %d", &number1, &number2);
-    
-    // calculating sum
-    sum = number1 + number2;      
-    
-    printf("%d + %d = %d", number1, number2, sum);
+    scanf("%d %d", &a, &b);
+    sum = a + b;
+    printf("Sum: %d\n", sum);
     return 0;
 }
